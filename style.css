@@ -1,0 +1,67 @@
+@charset "utf-8";
+
+html {
+    font-size: 100%; 
+}
+
+body {
+    color: #24292e;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 4%;
+}
+
+header {
+    margin-top: 20px;
+}
+
+header p {
+    font-size: 0.9rem;
+}
+
+.site-title {
+    text-decoration: none;
+}
+
+.site-title h1 {
+    color: #24292e;
+    font-size: 1.8rem;
+}
+
+main {
+    padding: 10px 0;
+}
+
+.alert-primary {
+    font-size: 1.1rem;
+}
+
+.btn-primary {
+    font-size: 1rem;
+}
+
+.version {
+    margin-top: 50px;
+    font-size: 1.1rem;
+    border-bottom: 1px solid #c8c8c8;
+    padding-bottom: 5px;
+}
+
+.app-info {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 0.9rem;
+}
+
+.app-info dt{
+    width: 10%;
+    text-align: center;
+}
+
+.app-info dd {
+    width: 90%;
+}
+
+footer {
+    text-align: center;
+}
