@@ -40,7 +40,7 @@ main {
     font-size: 1rem;
 }
 
-.version {
+.version, .comments {
     margin-top: 50px;
     font-size: 1.1rem;
     border-bottom: 1px solid #c8c8c8;
@@ -54,15 +54,36 @@ main {
 }
 
 .app-info dt{
-    width: 10%;
+    width: fit-content;
     text-align: center;
 }
 
 .app-info dd {
-    width: 80%;
-    margin-left: 10px;
+    padding-left: 10px;
 }
+
+.form-control {
+    height: 20px;
+}
+
+.btn-secondary {
+    width: 10%;
+}
+
+/* .btn-secondary {
+    margin-left: 10px ;
+} */
 
 footer {
     text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .justify-content-center {
+        flex-direction: column;
+    }
+
+    .btn-secondary {
+        width: 20%;
+    }
 }

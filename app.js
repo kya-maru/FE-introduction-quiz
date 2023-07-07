@@ -348,3 +348,14 @@ for (let handlerIndex = 0; handlerIndex < btnLength; handlerIndex++) {
         clickHandler(e);
     });
 }
+
+let comment = document.getElementById('exampleFormControlTextarea1');
+comment.addEventListener('submit', function(event) {
+    event.preventDefault();
+    let commentText = comment.value;
+    console.log(commentText);
+    let commentElm = document.createElement('p');
+    commentElm.textContent = commentText;
+    document.getElementById('comments').appendChild(commentElm);
+    commentText = '';
+});
